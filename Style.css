@@ -1,0 +1,37 @@
+.mainBlock {
+  border: 2px solid black;
+  height: auto;
+  width: 65%;
+  padding: 4px;
+}
+li {
+  border: 2px solid black;
+  margin-left: -15px;
+  padding: 4px;
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  background-color: white;
+}
+.delButton {
+  background-color: #ffa500;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+  margin: 5px 3px;
+  cursor: pointer;
+}
+.text {
+  display: inline;
+  padding: 5px;
+}
+.cbBox {
+  display: inline;
+  max-width: 25px;
+}
